@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import Checker from "./components/Example/Checker";
+import Delete from "./components/Example/Delete";
 import Incrementer from "./components/Example/Incrementer";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
@@ -10,6 +11,7 @@ root.render(
   <React.StrictMode>
     <Checker />
     <Incrementer />
+    <Delete />
   </React.StrictMode>
 );
 
